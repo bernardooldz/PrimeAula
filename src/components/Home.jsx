@@ -1,0 +1,20 @@
+import ImageHome from '../assets/images/imgEstudandoOn2.png'
+
+function Home(){
+    return(
+        <div className="container-section">
+            <div className="container-home">
+                <div className="container-home-hero">
+                    <p className="titles">Aulas que se ajustam ao seu ritmo.</p>
+                    <p className="subtitles">Venha estudar na mehor plataforma online de ensino particular com aulas personalizadas e suporte humanizado para você aprender no seu tempo.</p>
+                    <button className="button-see-prices">Ver planos</button>
+                </div>
+                <div className="image-home">
+                    <img src={ImageHome} alt="" />
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Home

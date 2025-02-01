@@ -1,4 +1,4 @@
-import ImageHome from '../assets/images/imgEstudandoOn2.png'
+import ImageHome from '../assets/images/imageHome.svg'
 
 function Home(){
     return(

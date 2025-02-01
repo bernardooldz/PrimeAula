@@ -64,6 +64,7 @@ header {
 .container-home {
   display: flex;
   justify-content: space-around;
+  padding: 50px;
 }
 
 .container-home-hero{
@@ -101,5 +102,6 @@ header {
 }
 
 .image-home img{
-  width: 750px;
+  height: 60vh;
+  background: transparent;
 }

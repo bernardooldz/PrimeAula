@@ -7,7 +7,7 @@
   --background-principal: #BDC9D9;
   --background-roxo-escuro: #9CA8D9;
   --background-roxo-claro: #B4BDE0;
-  --background-branco: EBE8EB;
+  --background-branco: #EBE8EB;
 
   --gradient-azul-roxo: linear-gradient(90deg, #3453CD, #76339C);
   --gradient-azul-roxo-claro: linear-gradient(90deg, #854AA7, #708AF3);
@@ -101,10 +101,13 @@ footer {
 }
 
 .titleHome {
-  font-size: 3rem;
+  font-size: 3.2rem;
   color: var(--heading-color);
   font-weight: 600;
   margin-bottom: 25px;
+  background: var(--gradient-azul-roxo);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .subtitleHome {
@@ -125,6 +128,7 @@ footer {
   font-weight: bold;
   width: 250px;
   text-align: center;
+  box-shadow: 10px 10px 64px 0px var(--primary-color);
 }
 
 .button-see-prices:hover {
@@ -166,7 +170,7 @@ footer {
 }
 
 .case-step {
-  background-color: var(--white);
+  background-color: var(--background-branco);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -235,4 +239,66 @@ footer {
 
 .advantage-image img {
   width: 35vw;
+}
+
+.container-plans-case .plans-case{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.plan-case {
+  background-color: var(--background-branco);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem;
+  position: relative;
+  justify-content: space-around;
+  border-radius: 20px;
+  box-shadow: 10px 10px 64px 0px var(--primary-color);
+  width: 23.5%;
+}
+
+.plan-case .titles {
+  margin-bottom: 2rem;
+  background: var(--gradient-azul-roxo);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-beneficits-plans{
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.beneficit-item{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+
+  & p{
+    font-size: 1.4rem;
+  }
+
+  & div{
+    align-items: center;
+  }
+}
+
+.button-price-plan{
+  width: 100%;
+  padding: 1rem;
+  background: var(--gradient-azul-roxo);
+  border-radius: 10px;
+  color: var(--white);
+  border: none;
+  font-size: 1.35rem;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 10px 10px 64px 0px var(--primary-color);
+  margin-top: 20px;
 }

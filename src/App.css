@@ -130,6 +130,10 @@ footer {
   text-align: center;
   box-shadow: 10px 10px 64px 0px var(--primary-color);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
 }
 
 .button-see-prices:hover {
@@ -242,7 +246,7 @@ footer {
   width: 35vw;
 }
 
-.container-plans-case .plans-case{
+.container-plans-case .plans-case {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -268,7 +272,7 @@ footer {
   -webkit-text-fill-color: transparent;
 }
 
-.section-beneficits-plans{
+.section-beneficits-plans {
   height: 340px;
   display: flex;
   flex-direction: column;
@@ -276,22 +280,22 @@ footer {
   gap: 10px;
 }
 
-.beneficit-item{
+.beneficit-item {
   display: flex;
   gap: 10px;
   margin-bottom: 10px;
 
-  & p{
+  & p {
     font-size: 1.4rem;
   }
 
-  & div{
+  & div {
     display: flex;
     align-items: center;
   }
 }
 
-.button-price-plan{
+.button-price-plan {
   width: 100%;
   padding: 1rem;
   background: var(--gradient-azul-roxo);
@@ -306,6 +310,59 @@ footer {
   cursor: pointer;
 }
 
-.button-price-plan:hover{
+.button-price-plan:hover {
   transform: scale(102%);
+}
+
+.container-comments {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+}
+
+.case-comment {
+  background-color: var(--background-branco);
+  border-radius: 50px 50px 50px 5px;
+  padding: 50px;
+  width: 30%;
+  height: max-content + 50px;
+}
+
+.container-author {
+  display: flex;
+  gap: 25px;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.image-author {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--gradient-azul-roxo-claro);
+  transform: rotate(90deg);
+}
+
+.author-data {
+  display: flex;
+  flex-direction: column;
+
+  & .name-author {
+    font-size: 1.7rem;
+    color: var(--heading-color);
+  }
+
+  & .category-author {
+    font-size: 1.3rem;
+    color: var(--text-color);
+  }
+}
+
+.opinion-comment {
+  font-size: 1.4rem;
+  color: var(--text-color);
+  margin-top: 30px;
+  text-align: justify;
 }

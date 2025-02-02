@@ -1,8 +1,40 @@
+:root {
+
+  --primary-color: #4C5FD5;
+  --secondary-color: #A25DDC;
+
+  --background-principal: #BDC9D9;
+  --background-roxo-escuro: #9CA8D9;
+  --background-roxo-claro: #B4BDE0;
+  --background-branco: EBE8EB;
+
+  --gradient-azul-roxo: linear-gradient(90deg, #3453CD, #76339C);
+  --gradient-azul-roxo-claro: linear-gradient(90deg, #854AA7, #708AF3);
+
+  --text-color: #5B5B5B;
+  --heading-color: #1C1C1C;
+  --white: #F8F9FA;
+
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", serif;
+}
+
+html ::-webkit-scrollbar {
+  width: 6px;
+}
+
+html ::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: var(--primary-color);
+}
+
+html ::-webkit-scrollbar-track {
+  background: var(--background-roxo-escuro);
 }
 
 a {

@@ -2,6 +2,7 @@
 
   --primary-color: #4C5FD5;
   --secondary-color: #A25DDC;
+  --images-color: #8d89de;
 
   --background-principal: #BDC9D9;
   --background-roxo-escuro: #9CA8D9;
@@ -59,6 +60,7 @@ header {
   width: 100%;
   border-radius: 55px;
   margin-top: 35px;
+  box-shadow: 5px 5px 30px 0px #777777;
 }
 
 .container-home {
@@ -67,7 +69,7 @@ header {
   padding: 50px;
 }
 
-.container-home-hero{
+.container-home-hero {
   display: flex;
   flex-direction: column;
   margin-top: 50px;
@@ -89,7 +91,7 @@ header {
   margin-bottom: 80px;
 }
 
-.button-see-prices{
+.button-see-prices {
   background: var(--gradient-azul-roxo);
   border-radius: 50px;
   padding: 14.5px 20px;
@@ -101,40 +103,45 @@ header {
   text-align: center;
 }
 
-.image-home img{
+.button-see-prices:hover {
+  transform: scale(102%);
+  transition: 0.2s;
+}
+
+.image-home img {
   height: 60vh;
   background: transparent;
 }
 
-.container-htu{
+.container-htu {
   display: flex;
   flex-direction: column;
   padding: 30px;
 }
 
 .titles {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: var(--heading-color);
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 25px;
 }
 
 .subtitles {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: var(--text-color);
   text-align: justify;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
-.steps-htu{
+.steps-htu {
   display: flex;
   justify-content: space-around;
   margin-bottom: 40px;
   margin-inline: auto;
-  
+
 }
 
-.case-step{
+.case-step {
   background-color: var(--white);
   display: flex;
   flex-direction: column;
@@ -144,15 +151,21 @@ header {
   position: relative;
   border-radius: 20px;
   justify-content: space-around;
+  box-shadow: 10px 10px 64px 0px var(--primary-color);
 
-  & img{
-    height: 13rem;
+  & img {
+    height: 12rem;
   }
 }
 
-.step-number{
+.case-step:hover {
+  transform: scale(102%);
+  transition: 0.3s;
+}
+
+.step-number {
   background: var(--gradient-azul-roxo);
-  padding: 25px 35px;
+  padding: 25px 32px;
   border-radius: 100%;
   font-size: 1.5rem;
   font-weight: bold;
@@ -167,4 +180,35 @@ header {
   text-align: justify;
   margin-top: 30px;
   margin-bottom: 50px;
+}
+
+.container-advantages{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 20px;
+}
+
+.advantages-items{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.advantage-item{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+
+  & .subtitles{
+    margin-bottom: 0;
+  }
+}
+
+.advantage-image{
+  padding: 50px;
+}
+
+.advantage-image img{
+  width: 35vw;
 }

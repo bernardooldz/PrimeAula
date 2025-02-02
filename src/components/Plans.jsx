@@ -22,7 +22,7 @@ function Plans() {
             price: "R$99,90",
             planBeneficits: [
                 { itemId: 1, itemBeneficit: "1 matéria à escolha" },
-                { itemId: 2, itemBeneficit: "3 aulas de 30 minutos" },
+                { itemId: 2, itemBeneficit: "3 aulas de 40 minutos" },
                 { itemId: 3, itemBeneficit: "Suporte durante as aulas" },
                 { itemId: 4, itemBeneficit: "1 teste de progresso ao final" },
                 { itemId: 5, itemBeneficit: "Acesso a materiais complementares" },
@@ -37,9 +37,8 @@ function Plans() {
                 { itemId: 1, itemBeneficit: "Até 2 matérias à escolha" },
                 { itemId: 2, itemBeneficit: "6 aulas de 45 minutos" },
                 { itemId: 3, itemBeneficit: "Suporte ilimitado via chat" },
-                { itemId: 4, itemBeneficit: "Correção de exercícios personalizados" },
-                { itemId: 5, itemBeneficit: "2 testes de progresso" },
-                { itemId: 6, itemBeneficit: "Acesso a materiais exclusivos" },
+                { itemId: 4, itemBeneficit: "2 testes de progresso e correção personalizada" },
+                { itemId: 5, itemBeneficit: "Acesso a materiais exlusivos" },
             ]
         },
         {
@@ -48,12 +47,11 @@ function Plans() {
             planDescription: "O pacote completo para quem deseja um suporte intensivo e personalizado.",
             price: "R$229,90",
             planBeneficits: [
-                { itemId: 1, itemBeneficit: "Todas as matérias disponíveis" },
-                { itemId: 2, itemBeneficit: "Aulas ilimitadas de 1 hora" },
-                { itemId: 3, itemBeneficit: "Suporte prioritário 24/7" },
+                { itemId: 1, itemBeneficit: "Até 3 matérias à escolha" },
+                { itemId: 2, itemBeneficit: "10 aulas de 50 minutos" },
+                { itemId: 3, itemBeneficit: "Suporte prioritário 24/7 via chat" },
                 { itemId: 4, itemBeneficit: "Simulados e avaliações personalizadas" },
-                { itemId: 5, itemBeneficit: "Mentoria individual" },
-                { itemId: 6, itemBeneficit: "Acesso a conteúdos premium e workshops" },
+                { itemId: 5, itemBeneficit: "Acesso a materiais exclusivos" },
             ]
         }
     ];

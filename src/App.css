@@ -129,6 +129,7 @@ footer {
   width: 250px;
   text-align: center;
   box-shadow: 10px 10px 64px 0px var(--primary-color);
+  cursor: pointer;
 }
 
 .button-see-prices:hover {
@@ -261,14 +262,14 @@ footer {
 }
 
 .plan-case .titles {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   background: var(--gradient-azul-roxo);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .section-beneficits-plans{
-  height: 380px;
+  height: 340px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -285,6 +286,7 @@ footer {
   }
 
   & div{
+    display: flex;
     align-items: center;
   }
 }
@@ -301,4 +303,9 @@ footer {
   text-align: center;
   box-shadow: 10px 10px 64px 0px var(--primary-color);
   margin-top: 20px;
+  cursor: pointer;
+}
+
+.button-price-plan:hover{
+  transform: scale(102%);
 }

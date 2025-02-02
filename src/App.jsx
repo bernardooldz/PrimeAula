@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import Home from './components/Home'
 import HowToUse from './components/HowToUse'
+import LastSection from './components/LastSection'
 import Plans from './components/Plans'
 
 
@@ -15,7 +16,8 @@ function App() {
       <Home />
       <Advantages />
       <HowToUse />
-      <Plans />      
+      <Plans />
+      <LastSection />      
       <Footer />
     </>
   )

@@ -42,7 +42,7 @@ function Advantages() {
                     <div className="advantages-items">
                         {advantages.map((advantage) => (
                             <div key={advantage.advantageId} className="advantage-item">
-                                <Check strokeWidth={3} />
+                                <Check strokeWidth={3} color=' #3453CD'/>
                                 <p className='subtitles'>{advantage.advantageItem}</p>
                             </div>
                         ))}

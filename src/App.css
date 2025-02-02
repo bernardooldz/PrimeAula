@@ -37,7 +37,7 @@ ui {
 
 body {
   background-color: var(--background-principal);
-  padding: 30px;
+  padding: 20px 30px;
 }
 
 header {
@@ -48,6 +48,30 @@ header {
   align-items: center;
   border-radius: 10px 10px 30px 30px;
   background-color: var(--background-roxo-escuro);
+}
+
+footer {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px 30px 10px 10px;
+  background-color: var(--background-roxo-escuro);
+  margin-top: 35px;
+
+  & .subtitles {
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+
+  & a {
+    background: var(--gradient-azul-roxo);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
 }
 
 .logo img {
@@ -182,33 +206,33 @@ header {
   margin-bottom: 50px;
 }
 
-.container-advantages{
+.container-advantages {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 30px 20px;
 }
 
-.advantages-items{
+.advantages-items {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.advantage-item{
+.advantage-item {
   display: flex;
   gap: 15px;
   align-items: center;
 
-  & .subtitles{
+  & .subtitles {
     margin-bottom: 0;
   }
 }
 
-.advantage-image{
+.advantage-image {
   padding: 50px;
 }
 
-.advantage-image img{
+.advantage-image img {
   width: 35vw;
 }

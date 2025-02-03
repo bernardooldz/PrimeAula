@@ -32,31 +32,24 @@ function Comments() {
             opinion: "A plataforma tem um suporte incrível! Sempre que eu tinha dúvidas, conseguia falar com um professor rapidamente. Isso fez toda a diferença nos meus estudos."
         }
     ]
-    
+
     return (
-        <div className="container-section">
 
-           <div className="container-htu">
-                <p className="titles">O que nossos alunos estão dizendo</p>
-                <p className="subtitles">Confira alguns comentártios de pessoas que utilizaram nossa plataforma.</p>
-            </div>
-
-            <div className="container-comments">
-                {comments.map((comment) => (
-                    <div key={comment.commentId} className="case-comment">
-                        <div className="container-author">
-                            <div className="image-author"></div>
-                            <div className="author-data">
-                                <p className="name-author">{comment.author}</p>
-                                <p className="category-author">{comment.authorCategory}</p>
-                            </div>
+        <div className="container-comments">
+            {comments.map((comment) => (
+                <div key={comment.commentId} className="case-comment">
+                    <div className="container-author">
+                        <div className="image-author"></div>
+                        <div className="author-data">
+                            <p className="name-author">{comment.author}</p>
+                            <p className="category-author">{comment.authorCategory}</p>
                         </div>
-                        <div className="opinion-comment">{comment.opinion}</div>
                     </div>
-                ))}
-            </div>
-
+                    <div className="opinion-comment">{comment.opinion}</div>
+                </div>
+            ))}
         </div>
+
     )
 }
 

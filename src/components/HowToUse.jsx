@@ -27,13 +27,6 @@ function HowToUse() {
 
     return (
 
-        <div className="container-section">
-
-            <div className="container-htu">
-                <p className="titles">Só tres passos...</p>
-                <p className="subtitles">Veja esse passo a passo e descubra como é fácil utilizar nossa plataforma.</p>
-            </div>
-
             <div className="steps-htu">
                 {steps.map((step) => (
                     <div key={step.stepId} className="case-step">
@@ -43,8 +36,7 @@ function HowToUse() {
                     </div>
                 ))}
             </div>
-
-        </div>
+            
     )
 }
 

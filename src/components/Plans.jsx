@@ -56,13 +56,7 @@ function Plans() {
         }
     ];
 
-    return (
-        <div className="container-section">
-
-            <div className="container-htu">
-                <p className="titles">Conheça nossos planos.</p>
-                <p className="subtitles">Confira os benefícios de cada um de nossos planos preparados especialmente para cada tipo de estudante.</p>
-            </div>
+    return (        
 
             <div className="container-plans-case">
                 <div className="plans-case">
@@ -82,8 +76,7 @@ function Plans() {
                     ))}
                 </div>
             </div>
-
-        </div>
+            
     );
 }
 

@@ -1,6 +1,4 @@
 import { Check } from 'lucide-react'
-import ImageAdvantages from '../assets/images/imageAdvantages.svg'
-
 
 function Advantages() {
 
@@ -28,29 +26,20 @@ function Advantages() {
     ]
 
     return (
-        <div className="container-section">
-            <div className="container-advantages">
-                <div className="advantage-image">
-                    <div>
-                        <img src={ImageAdvantages} alt="" />
+
+        <div className="container-advantage-hero">
+            <p className="titles">Por que escolher a PrimeAula?</p>
+
+            <div className="advantages-items">
+                {advantages.map((advantage) => (
+                    <div key={advantage.advantageId} className="advantage-item">
+                        <Check strokeWidth={3} color=' #3453CD' />
+                        <p className='subtitles'>{advantage.advantageItem}</p>
                     </div>
-                </div>
-
-                <div className="container-advantage-hero">
-                    <p className="titles">Por que escolher a PrimeAula?</p>
-
-                    <div className="advantages-items">
-                        {advantages.map((advantage) => (
-                            <div key={advantage.advantageId} className="advantage-item">
-                                <Check strokeWidth={3} color=' #3453CD'/>
-                                <p className='subtitles'>{advantage.advantageItem}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-
+                ))}
             </div>
         </div>
+
     )
 }
 

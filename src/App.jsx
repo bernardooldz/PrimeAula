@@ -3,7 +3,6 @@ import './styles/responsive.css'
 
 import Advantages from './components/Advantages'
 import Comments from './components/Comments'
-import Footer from './components/Footer'
 import HowToUse from './components/HowToUse'
 import Plans from './components/Plans'
 
@@ -89,8 +88,13 @@ function App() {
         </div>
       </div>
 
-      
-      <Footer />
+      <footer>
+        <h1 className='logo'>
+          <img src={Logo} alt="Logo" />
+        </h1>
+        <p className="subtitles">Desenvolvido por <a className='subtitles' href="https://github.com/bernardooldz">ldz_dev </a>| Todos os direitos reservados </p>
+      </footer>
+
     </>
   )
 }

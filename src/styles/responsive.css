@@ -106,5 +106,32 @@
         padding: 30px;
     }
 
-    
+    .container-comments{
+        width: 100%;
+        gap: 20px;
+    }
+
+    .case-comment{
+        padding: 30px;
+        height: auto;
+    }
+
+    .author-data {
+        display: flex;
+        flex-direction: column;
+      
+        & .name-author {
+          font-size: 1.5rem;
+          color: var(--heading-color);
+        }
+      
+        & .category-author {
+          font-size: 1rem;
+          color: var(--text-color);
+        }
+      }
+
+    .opinion-comment{
+        font-size: 1.2rem;
+    }
 }

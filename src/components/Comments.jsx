@@ -4,7 +4,7 @@ function Comments() {
         {
             commentId: 1,
             author: "Mariana R.",
-            authorCategory: "Estudante do Ensino Médio",
+            authorCategory: "Estudante",
             opinion: "A PrimeAula me ajudou muito com matemática! Antes eu tinha dificuldade em entender alguns conceitos, mas com as aulas personalizadas, tudo ficou mais claro. Recomendo demais!"
         },
         {

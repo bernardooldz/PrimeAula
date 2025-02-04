@@ -1,4 +1,6 @@
-import './App.css'
+import './styles/App.css'
+import './styles/responsive.css'
+
 import Advantages from './components/Advantages'
 import Comments from './components/Comments'
 import Footer from './components/Footer'

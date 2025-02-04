@@ -295,6 +295,21 @@ footer {
   }
 }
 
+.button-price-plan{
+  width: 100%;
+  padding: 1rem;
+  background: var(--gradient-azul-roxo);
+  border-radius: 10px;
+  color: var(--white);
+  border: none;
+  font-size: 1.35rem;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 10px 10px 64px 0px var(--primary-color);
+  margin-top: 20px;
+  cursor: pointer;
+}
+
 .container-comments {
   width: 1550px;
   display: flex;

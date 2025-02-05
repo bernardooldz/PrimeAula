@@ -92,7 +92,7 @@ function App() {
         <h1 className='logo'>
           <img src={Logo} alt="Logo" />
         </h1>
-        <p className="subtitles">Desenvolvido por <a className='subtitles' href="https://github.com/bernardooldz">ldz_dev </a>| Todos os direitos reservados </p>
+        <p className="subtitles">Desenvolvido por <a className='subtitles' href="https://github.com/bernardooldz">ldz_dev </a><span className='hidden-footer'>|</span> Todos os direitos reservados </p>
       </footer>
 
     </>

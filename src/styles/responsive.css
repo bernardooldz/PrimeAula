@@ -1,4 +1,8 @@
 @media screen and (max-width: 1360px) {
+    body{
+        padding: 10px 20px;
+    }
+
     .container-section {
         padding: 40px 25px;
     }
@@ -41,33 +45,33 @@
         margin-top: 20px;
     }
 
-    .container-advantages{
+    .container-advantages {
         flex-direction: column;
         padding: 0 17px;
     }
 
-    .container-advantages .titles{
+    .container-advantages .titles {
         font-size: 1.9rem;
         margin-bottom: 30px;
     }
 
-    .container-advantages .subtitles{
+    .container-advantages .subtitles {
         font-size: 1.25rem;
     }
 
-    .titles{
+    .titles {
         font-size: 2.2rem;
     }
 
-    .subtitles{
+    .subtitles {
         font-size: 1.35rem;
     }
 
-    .advantage-image{
+    .advantage-image {
         padding: 0 0 50px 0;
     }
 
-    .advantage-image img{
+    .advantage-image img {
         width: 100%;
     }
 
@@ -76,42 +80,42 @@
         gap: 60px;
     }
 
-    .steps-htu:last-child{
+    .steps-htu:last-child {
         margin-bottom: 20px;
     }
 
-    .case-step{
+    .case-step {
         width: 100%;
         padding: 30px;
     }
 
-    .case-step img{
+    .case-step img {
         width: 100%;
         padding: 10px;
     }
 
-    .case-step .subtitles{
+    .case-step .subtitles {
         font-size: 1.25rem;
         margin-top: 40px;
         margin-bottom: 20px;
     }
 
-    .plans-case{
+    .plans-case {
         flex-direction: column;
         gap: 45px;
     }
 
-    .plan-case{
+    .plan-case {
         width: 100%;
         padding: 30px;
     }
 
-    .container-comments{
+    .container-comments {
         width: 100%;
         gap: 20px;
     }
 
-    .case-comment{
+    .case-comment {
         padding: 30px;
         height: auto;
     }
@@ -119,19 +123,38 @@
     .author-data {
         display: flex;
         flex-direction: column;
-      
-        & .name-author {
-          font-size: 1.5rem;
-          color: var(--heading-color);
-        }
-      
-        & .category-author {
-          font-size: 1rem;
-          color: var(--text-color);
-        }
-      }
 
-    .opinion-comment{
+        & .name-author {
+            font-size: 1.5rem;
+            color: var(--heading-color);
+        }
+
+        & .category-author {
+            font-size: 1rem;
+            color: var(--text-color);
+        }
+    }
+
+    .opinion-comment {
         font-size: 1.2rem;
     }
+
+    .image-last-section {
+        padding: 20px;
+    }
+
+    .image-last-section img {
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    footer p {
+        padding: 20px;
+    }
+
+    .hidden-footer {
+        display: none;
+    }
+
 }

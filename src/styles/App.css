@@ -273,11 +273,12 @@ footer {
 }
 
 .section-beneficits-plans {
-  height: 340px;
+  height: max-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 10px;
+  padding-block: 1.5rem;
 }
 
 .beneficit-item {

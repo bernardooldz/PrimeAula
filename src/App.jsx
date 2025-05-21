@@ -54,6 +54,7 @@ function App() {
           title={'Só tres passos...'}
           subtitle={'Veja esse passo a passo e descubra como é fácil utilizar nossa plataforma.'}
         />
+        
         <HowToUse />
       </div>
 

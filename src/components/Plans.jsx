@@ -66,7 +66,7 @@ function Plans() {
                             <div className="section-beneficits-plans">
                                 {plan.planBeneficits.map((beneficit) => (
                                     <div key={beneficit.itemId} className="beneficit-item">
-                                        <div><Check strokeWidth={3} color="#3453CD" size={24}/></div>
+                                        <div><Check strokeWidth={3} size={18} color="#3453CD"/></div>
                                         <p>{beneficit.itemBeneficit}</p>
                                     </div>
                                 ))}

@@ -26,17 +26,19 @@ function HowToUse() {
     ]
 
     return (
-
-            <div className="steps-htu">
-                {steps.map((step) => (
-                    <div key={step.stepId} className="case-step">
-                        <div className="step-number">{step.number}</div>
-                        <p className="subtitles">{step.subtitle}</p>
-                        <img src={step.imageStep} alt="" />
-                    </div>
-                ))}
+        <div>
+            <div className='container-htu1'>
+                <div className="steps-htu">
+                    {steps.map((step) => (
+                        <div key={step.stepId} className="case-step">
+                            <div className="step-number">{step.number}</div>
+                            <p className="subtitles">{step.subtitle}</p>
+                            <img src={step.imageStep} alt="" />
+                        </div>
+                    ))}
+                </div>
             </div>
-            
+        </div>
     )
 }
 
